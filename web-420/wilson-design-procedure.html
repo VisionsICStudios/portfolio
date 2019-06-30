@@ -1,0 +1,131 @@
+<!--
+/*
+============================================
+; Title: wilson-design-procedure.html | wk 8 
+; Author: Aaron Wilson
+; Date: 23 June 2019
+; Description: HTML code Portfolio Website
+;===========================================
+*/
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>VisionsICStudios | Presentations</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+
+    <body class="pres-body">
+        <header class="header">
+            <nav class="navigation" id="menu-one">
+                <div class="main-menu menu-left">
+                    <ul>
+                        <li class="nl-1">
+                            <a href="../index.html" id="homeBtn" class="navlinks homePage"><span
+                            class="brackets">|</span>Home<span class="brackets">|</span></a>
+                        </li>
+                        <li class="nl-2">
+                            <a href="#aboutPage" id="aboutBtn" class="navlinks aboutPage"><span
+                            class="brackets">|</span>About<span class="brackets">|</span></a>
+                        </li>
+                        <li class="nl-3">
+                            <a href="#diagramsPage" id="diagramsBtn" class="navlinks diagramsPage"><span
+                            class="brackets">|</span>Diagrams<span class="brackets">|</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-menu menu-middle">
+                    <ul>
+                        <li id="logo" class="nl-4">
+                            <a href="#introPage" id="logoBtn" class="navlinks homePage"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-menu menu-right">
+                    <ul>
+                        <li class="nl-5">
+                            <a href="#portfoliosPage" id="portfoliosBtn" class="navlinks portfoliosPage"><span class="brackets">|</span>Portfolios<span class="brackets">|</span></a>
+                        </li>
+                        <li class="nl-6">
+                            <a href="#presentationsPage" id="presentationsBtn" class="navlinks presentationsPage"><span class="brackets">|</span>Presentations<span class="brackets"></span></a>
+                        </li>
+                        <li class="nl-7">
+                            <a href="#contactsPage" id="contactsBtn" class="navlinks contactsPage"><span class="brackets">|</span>Contacts<span class="brackets">|</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="title">
+                <h1 id="content-title"></h1>
+            </div>
+        </header>
+    
+        <!-- Start Container Section -->
+        <div id="pres-container">
+
+            <!-- Presentations Title Div Start -->
+            <div class="title presentations-title">
+                <h1 id="content-title">Presentations Page</h1>
+            </div>
+            <!-- Presentations Title Div End -->
+
+            <div class="weeks-box" id="week-six-video">
+
+                <video controls autoplay reload="none" style="width:90vw; height:60vh;">
+                    <source src="../restful-api-presentations/wilsonA-Presentation-6.2.mp4" type="video/mp4" />
+                </video>
+
+            </div>
+
+            <div class="bottom-button">
+                <a href="../index.html" class="back-button" id="back-btn">Back To Home Page</a>
+            </div>
+
+            <nav id="menu-two">
+                <ul>
+                <li class="wk wk-1"><a href="./wilson-rest.html" id="wk-1-btn"><span class="brackets">|</span>Week One<span class="brackets">|</span></a></li>
+                <li class="wk wk-2"><a href="./wilson-restful-apis.html" id="wk-2-btn"><span class="brackets">|</span>Week Two<span class="brackets">|</span></a></li>
+                <li class="wk wk-3"><a href="./wilson-soap-apis.html" id="wk-3-btn-sa"><span class="brackets">|</span>Week Three<span class="brackets">|</span></a></li>
+                <li class="wk wk-4"><a href="./wilson-json-apis..html" id="wk-4-btn"><span class="brackets">|</span>Week Four<span class="brackets">|</span></a></li>
+                <li class="wk wk-5"><a href="#" id="wk-5-btn">Week Five</a></li>
+                <li class="wk wk-6"><a href="#" id="wk-6-btn">Week Six</a></li>
+                <li class="wk wk-7"><a href="./wilson-soa.html" id="wk-7-btn">Week Seven</a></li>
+                <li class="wk wk-8"><a href="./wilson-microservices.html" id="wk-8-btn">Week Eight</a></li>
+                <li class="wk wk-9"><a href="#" id="wk-9-btn">Week Nine</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Footer Div Start -->
+        <div class="footer" id="footer">
+            <!-- Include Font Awesome Stylesheet in Header -->
+            <div class="text-center center-block">
+                <a href="https://www.facebook.com/AaronTinaWilson" id="fb"><i id="social-fb"
+                class="fab fa-facebook-square fa-3x social"></i></a>
+                <a href="https://twitter.com/bootsnipp" id="tw"><i id="social-tw"
+                class="fab fa-twitter-square fa-3x social"></i></a>
+                <a href="https://github.com/VisionsICStudios" id="gh"><i id="social-gh"
+                class="fab fa-github-square fa-3x social"></i></a>
+                <a href="mailto:arwilson@my365.bellevue.edu" id="em"><i id="social-em"
+                class="fa fa-envelope-square fa-3x social"></i></a>
+            </div>
+
+            <div class="copyright">
+                <h6>&copy; 2019 VisionsICStudios</h6>
+            </div>
+        </div>
+        <!-- Footer Div End -->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="../main.js"></script>   
+    </body>
+</html>

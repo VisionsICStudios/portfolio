@@ -1,8 +1,8 @@
 /*
 ============================================
-; Title: Presentation.js | week 9 (update)
+; Title: Presentation.js | week 3 (update)
 ; Author: Aaron Wilson
-; Date: 30 june 2019
+; Date: 28 July 2019
 ; Description: JQuery Code Portfolio Website
 ;===========================================
 */

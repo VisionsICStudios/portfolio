@@ -1,8 +1,8 @@
 /*
 ============================================
-; Title: main.js | week 6 (update)
+; Title: main.js | week 7 (update)
 ; Author: Aaron Wilson
-; Date: 18 August 2019
+; Date: 25 August 2019
 ; Description: JQuery Code Portfolio Website
 ;===========================================
 */
